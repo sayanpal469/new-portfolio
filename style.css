@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Baloo+2:wght@400;700&family=Baloo+Bhai+2:wght@400;700&family=Baloo+Bhaijaan+2:wght@400;500;700&family=Dancing+Script:wght@400;700&family=Fredoka+One&family=Fuzzy+Bubbles:wght@400;700&family=Indie+Flower&family=League+Gothic&family=Lobster&family=Poppins:wght@400;700&family=Quicksand:wght@400;700&family=Raleway:wght@300;400;700&family=The+Nautigal:wght@400;700&display=swap');
 
 body{
-    font-family: 'Poppins', sans-serif;
+    
+    font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
 p{
@@ -23,8 +24,8 @@ p{
 
 
 .nav-link{
-    font-size: 18px;
-    color: dimgrey;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .btn{
@@ -35,6 +36,10 @@ p{
 
 .name{
     font-size: 60px;
-    font-weight: 500;
-    color: #487eb0;
+    font-weight: 700;
+    color: #3944F7;
+}
+
+#profesion{
+    color: #E21717;
 }
