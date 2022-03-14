@@ -5,12 +5,10 @@ body{
     font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
-p{
-    color: lightgrey;
-}
+
 
 .navbar-brand{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -22,6 +20,9 @@ p{
     margin-left: 25px;
 }
 
+.img-round{
+    border-radius: 50%;
+}
 
 .nav-link{
     font-size: 20px;
@@ -42,4 +43,27 @@ p{
 
 #profesion{
     color: #E21717;
+}
+
+.shadow{
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.shadow:hover{
+    background-color: #3944F7;
+    color: #fff;
+}
+
+.icon{
+    color: #3944F7;
+}
+
+.shadow:hover .icon{
+    color: #fff;
+}
+
+.box-height{
+    height: 250px;
 }
